@@ -1,0 +1,51 @@
+@font-face {
+    font-family:'eu';
+    src: url(LEMONMILK-Medium.otf);
+}
+
+
+input{
+    position: relative;
+    display: block;
+    background-color: white;
+    border: solid 2px rgb(152, 136, 136);
+    box-shadow: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 20px;
+    font-size:18px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    bottom: -100px;
+}
+
+.headcad_endereco{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(83, 125, 207, 0.566);
+    justify-content: space-around;
+    bottom: 50px;
+
+}
+
+h1{
+    font-family: 'eu';
+    text-align: center;
+    color: white;
+}
+
+.inputfundo_endereco{
+    background-image: url(../Pictures/Aura\ Background.jpg);
+    border: solid rgb(65, 144, 194);
+    box-shadow: 100px;
+    background-position:  left center;
+    width: 30%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 90px;
+}

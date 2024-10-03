@@ -1,0 +1,156 @@
+
+
+
+@font-face {
+    font-family: 'eu';
+    src: url(LEMONMILK-Medium.otf);
+
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'eu';
+    margin-top: 10px;    
+}
+    
+input{
+    position: relative;
+    display: block;
+    background-color: white;
+    border: solid 2px rgb(152, 136, 136);
+    box-shadow: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 20px;
+    font-size:18px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    bottom: 80px;
+}
+
+label{
+    display: block;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(152, 136, 136);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+#kad{
+    font-size: 13px;
+    font-family: 'eu';
+    color: white;
+    background-color: rgba(83, 125, 207, 0.566);
+    bottom:68px;
+    position: relative;
+    display: flex;
+    left: 10px;
+    text-align: center;
+}   
+
+
+
+.headcad{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(83, 125, 207, 0.566);
+    justify-content: space-around;
+}
+
+
+
+
+
+.outraimagem{
+    width: 50%;
+    border: solid black 5px;
+    margin-left: 100px;
+    
+    
+}
+
+.input_fundo{   
+    background-image: url(../Pictures/Aura\ Background.jpg);
+    border: solid rgb(65, 144, 194);
+    box-shadow: 100px;
+    background-position:  left center;
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+
+
+#Airline{
+    color: rgba(56, 65, 152, 0.732);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+#imagem_nova{
+    display: block;
+    height: 600px;
+    width:  400px;
+    margin-top: -500px;
+    margin-left: 500px;
+    border-radius: 20px;
+    margin-right: 200px;
+
+
+
+    
+}
+
+#aniversario{
+    border: solid 2px rgb(152, 136, 136);
+    color: rgb(152, 136, 136);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 165px;
+}
+
+#termos{
+    color:rgb(152, 136, 136);;
+    position: relative;
+    text-align:center;
+    text-align: center
+    bottom: 20px;
+}
+
+.headcad{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(83, 125, 207, 0.566);
+
+}
+
+
+    
+    
+    
+
+    
+    
+
+
+
+
+
