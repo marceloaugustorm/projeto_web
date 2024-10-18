@@ -1,0 +1,173 @@
+
+
+
+@font-face {
+    font-family: 'eu';
+    src: url(LEMONMILK-Medium.otf);
+
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'eu';
+    margin-top: 10px;    
+}
+    
+input{
+    position: relative;
+    display: block;
+    background-color: white;
+    border: solid 2px rgb(152, 136, 136);
+    box-shadow: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 20px;
+    font-size:18px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 30px;
+    bottom: 10px;
+}
+
+label{
+    display: block;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(152, 136, 136);
+    font-size: 20px;
+    margin-top: 20px;
+    bottom:-35px;
+}
+
+
+
+
+#kad{
+    font-size: 13px;
+    font-family: 'eu';
+    color: white;
+    background-color: rgba(83, 125, 207, 0.566);
+    bottom:20px;
+    position: relative;
+    display: flex;
+    left: 10px;
+    text-align: center;
+}   
+
+
+
+.headcad{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(83, 125, 207, 0.566);
+    justify-content: space-around;
+}
+
+
+
+
+
+.outraimagem{
+    width: 50%;
+    border: solid black 5px;
+    margin-left: 100px;
+    
+    
+}
+
+.input_fundo{   
+    background-image: url(../Pictures/a27a5d1d6bf7fb63b2a49a003c3754bjpg);
+    box-shadow: 100px;
+    border-radius: 10px;
+    background-position:  left center;
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+
+
+#Airline{
+    color: rgba(83, 125, 207, 0.566);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-indent: 13px;
+}
+
+
+#aniversario{
+    border: solid 2px rgb(152, 136, 136);
+    color: rgb(152, 136, 136);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 110px;
+}
+
+#termos{
+    color:rgb(152, 136, 136);;
+    bottom: -30px;
+    transform: scale(80%);
+}
+
+.headcad{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(83, 125, 207, 0.566);
+    border-radius: -10;
+}
+
+body{
+    background-image: url(../Pictures/a27a5d1d6bf7fb63b2a49a003c37584b.jpg);
+    border-radius: 50px;
+    display: block;
+    height: 200%;
+    width: 100%;
+    display: flexbox;
+}
+
+.branco{
+    background-color: white;
+    margin-left: 385px;
+    height: 530px;
+    width: 301px;
+    border-radius: 10px;
+    margin-top: -90px;
+
+}
+
+.condicao{
+    position: relative;
+}
+
+.png{
+    background-image: url(../Pictures/rio.jpg);
+    width: 50%;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
+
+
+    
+    
+    
+
+    
+    
+
+
+
+
+
