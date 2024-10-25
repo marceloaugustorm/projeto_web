@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/cadastro.css'>
+    <link rel="shortcut icon" href="../Pictures/favicon.ico" type="image/x-icon">
+    <script src='../JavaScript/cadastro.js'></script>
+</head>
+<div class="fundo">
+<body>
+<div class="headcad">
+    
+    <h1 class="titulo">Cadastro</h1>
+    <div class="input_fundo">
+    <div class="png">
+    <div class="branco">
+    <form>  <h2 id="Airline" >Cadastre Aqui</h2>
+        <label for="name" for="name"></label>
+        <input type="text" name="name" placeholder="Digite Seu nome" id="name"/>
+
+        <label  for="email"></label>
+        <input type="email" name="email" placeholder="Digite Seu email" id="email"/>     
+
+        <label for="password"></label>
+        <input type="password" name="senha" placeholder="Digite sua senha" id="senha"/>
+
+        <label for="cpf_cnpj"></label>
+        <input type="text" id="cpf_cnpj" name="cpf_cnpj" placeholder="Digite seu CPF/CNPJ"/>
+
+        <label class="condicao" for="terms">Termos de condição</label>
+        <input id="termos" type="checkbox" name="terms"/>
+
+        <label for="birthday"></label>
+        <input  id="aniversario" type="date" placeholder="Aniversário" name="birthday"/>
+
+        <input id="kad" type="button" value="Cadastra-se" onclick="cadastroUsuario()"/>
+    </div>
+    </div>
+    </div>    
+</div>
+    </form>  
+</body>
+</div>  
+</html>
