@@ -4,3 +4,8 @@ async function cadastreEndereco(){
     window.location.href = "endereco.html"
     
 }
+
+async function listagemEndereco() {
+    window.location.href = "listagem endereco.html"
+    
+}

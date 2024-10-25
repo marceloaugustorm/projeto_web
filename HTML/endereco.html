@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../CSS/endereco.css'>
-    <script src='../JavaScript/enderco.js'></script>
+    <script src='../JavaScript/endereco.js'></script>
 </head>
+
 <body>
-<div class="headcad_endereco">
-    <h1>Cadastre seu endereço aqui</h1>
-</div>
-    
-    <div class="inputfundo_endereco">
-    <forms>
-    <label for="text"></label>
-    <input id="moradia" type="text" name="title" placeholder="Digite Aqui">
+    <div class="tudo">
+        <div class="headcad_endereco">
+            <h1>Cadastre seu endereço aqui</h1>
+        </div>
 
-    <label for="CEP"></label>
-    <input id="CEP" type="text" name="cep" placeholder="Digite Seu CEP">
+        <div class="inputfundo_endereco">
+            <form>
 
-    <label for="Adress"></label>
-    <input id="endereco" type="text" name="endereco" placeholder="Digite Seu endereço">
+                <label for="Title"></label>
+                <input id="title" type="text" name="title" placeholder="Title">
 
-    <label for="text"></label>
-    <input id="numero" type="number" name="number" placeholder="Digite o número">
+                <label for="cep"></label>
+                <input id="cep" type="text" name="cep" placeholder="Digite Seu CEP">
 
-    <label for="Complemento"></label>
-    <input id="complemento" type="text" name="Complemento" placeholder="Digite Complemento">
+                <label for="address"></label>
+                <input id="address" type="text" name="address" placeholder="Digite Seu endereço">
 
-    <input id="cadastrar" type="button" value="Cadastrar" onclick="cadastrar()">
+                <label for="number"></label>
+                <input id="number" type="text" name="number" placeholder="Digite o número">
+
+                <label for="complemento"></label>
+                <input id="complement" type="text" name="complement" placeholder="Digite Complemento">
+
+                <input id="cadastro" type="button" value="Cadastrar" onclick="cadastraEndereco()" />
+            </form>
+        </div>
     </div>
-</forms>
-    
 </body>
+
 </html>

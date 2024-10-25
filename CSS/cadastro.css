@@ -27,20 +27,20 @@ input{
     align-items: center;
     margin-top: 20px;
     font-size:18px; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 200px;
     height: 30px;
-    bottom: 80px;
+    bottom: 10px;
 }
 
 label{
     display: block;
     text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:  rgb(152, 136, 136);
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    bottom:-35px;
 }
 
 
@@ -51,7 +51,7 @@ label{
     font-family: 'eu';
     color: white;
     background-color: rgba(83, 125, 207, 0.566);
-    bottom:68px;
+    bottom:20px;
     position: relative;
     display: flex;
     left: 10px;
@@ -80,42 +80,29 @@ label{
 }
 
 .input_fundo{   
-    background-image: url(../Pictures/Aura\ Background.jpg);
-    border: solid rgb(65, 144, 194);
+    background-image: url(../Pictures/a27a5d1d6bf7fb63b2a49a003c3754bjpg);
     box-shadow: 100px;
+    border-radius: 10px;
     background-position:  left center;
     width: 50%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
 
 
 #Airline{
-    color: rgba(56, 65, 152, 0.732);
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(83, 125, 207, 0.566);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 50px;
     margin-top: 10px;
-    margin-left: 20px; 
+    margin-left: 35px;
+    text-indent: 13px;
 }
 
-#imagem_nova{
-    display: block;
-    height: 600px;
-    width:  400px;
-    margin-top: -500px;
-    margin-left: 500px;
-    border-radius: 20px;
-    margin-right: 200px;
-
-
-
-    
-}
 
 #aniversario{
     border: solid 2px rgb(152, 136, 136);
@@ -124,23 +111,53 @@ label{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 165px;
+    bottom: 110px;
 }
 
 #termos{
     color:rgb(152, 136, 136);;
-    position: relative;
-    text-align:center;
-    text-align: center
-    bottom: 20px;
+    bottom: -30px;
+    transform: scale(80%);
 }
 
 .headcad{
     width: 100%;
     height: 100px;
     background-color: rgba(83, 125, 207, 0.566);
+    border-radius: -10;
+}
+
+body{
+    background-image: url(../Pictures/a27a5d1d6bf7fb63b2a49a003c37584b.jpg);
+    border-radius: 50px;
+    display: block;
+    height: 200%;
+    width: 100%;
+    display: flexbox;
+}
+
+.branco{
+    background-color: white;
+    margin-left: 385px;
+    height: 530px;
+    width: 301px;
+    border-radius: 10px;
+    margin-top: -90px;
 
 }
+
+.condicao{
+    position: relative;
+}
+
+.png{
+    background-image: url(../Pictures/rio.jpg);
+    width: 50%;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
 
 
     

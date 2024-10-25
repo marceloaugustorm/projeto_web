@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'eu';
+    src: url(BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 're';
+    src: url(LEMONMILK-Medium.otf);
+}
+
+
+.tela inteira{
+    display: flex;
+    flex-direction: column;
+
+}
+
+tr{
+    background-color:  rgba(83, 125, 207, 0.566);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+td{
+    position: relative;
+    color: black;
+    font-family: 'eu';
+    flex-direction: column;
+    line-height: 2;
+    font-size: 15px;
+    left: 520px;
+    margin: 10px;
+    padding: 30px;
+    
+}
+
+.head{
+    width: 100%;
+    height: 20%;
+
+    background-color: rgba(83, 125, 207, 0.566);
+}
+
+h1{
+    color: white;
+    font-family: 're';
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 40px;
+    right: 0px;
+    font-family: 'eu';
+    color: white;
+}
+
+
+

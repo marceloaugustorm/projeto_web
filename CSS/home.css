@@ -1,27 +1,51 @@
 @font-face {
     font-family: 'eu';
-    src: url(LEMONMILK-Medium.otf);
+    src: url(BebasNeue-Regular.ttf);
 
 }
 
-.imagem_aviaofundo{
-    /* background-image:url(../Pictures/primeira-viagem-aviao-capa-820x430.jpg); */
-    width: 100%;
-    height: 100%;
-    align-items: center;
+@font-face {
+    font-family: 'Airlines';
+    src: url(LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: 'viagem';
+    src: url(Rustic\ Barn.otf);
 }
 
 .headcad_home{
     height: 100px;
     width: 100%;
-    background-color: rgba(83, 125, 207, 0.566);
     justify-content: space-around;
 }
 
+h2{
+    font-family: 'Airlines';
+    color:rgb(65, 144, 194);
+    font-size: 70px;
+    margin-top: -5px;
+    text-indent: 35px;
+}
+
 h1{
-    color: white;
+    color:rgb(65, 144, 194);
     text-align: center;
-    font-family: 'eu';
+    font-family: 'viagem';
+    font-size: 50px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    top: -130px;
+}
+
+h3{
+    font-family: 'viagem';
+    text-align: center;
+    position: relative;
+    top: -130px;
+    z-index: 2;
+    font-size: 80px;
+    color: white;
 }
 
 body{
@@ -32,23 +56,131 @@ body{
 }
 
 main{
-    background-image:url(../Pictures/primeira-viagem-aviao-capa-820x430.jpg);
-    height: 60vh;
-    width: 50%;
-    margin: auto
+    background-image:url(../Pictures/fundo\ home.avif);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px);
 }
 
 .botao{
     position: relative;
     background-color: rgba(83, 125, 207, 0.566);
-    margin-left: 90%;
-    margin-top: -20%;
+    margin-left: 1300px;
+    margin-top: -60px;
     width: 140px;
     height: 50px;
     border: solid white 3px;
     border-radius: 10px;
     color: white;
-    font-family: 'eu';
+    font-family: 'Airlines';
     font-size: 10px;
     bottom: 25px;
+    z-index: 2  ;
+}
+
+.botaoListagem{
+    position: relative;
+    background-color: rgba(83, 125, 207, 0.566);
+    margin-right: 300px;
+    margin-top: -50px;
+    width: 140px;
+    height: 50px;
+    border: solid white 3px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Airlines';
+    font-size: 10px;
+    bottom: 25px;
+    z-index: 2  ;
+}
+
+input{
+    margin: auto;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+.fortaleza{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    z-index: (2);
+    top: -500px;
+    position: relative;
+    margin-left: 20px;
+    background-image: url(../Pictures/fortaleza.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.italia{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Pictures/italia.jpg);
+    z-index: (2);
+    top: -1120px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.espanha{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Pictures/espanha.jpg);
+    z-index: (2);
+    top: -1830px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-left: 1050px;
+
+}
+
+.letra_fortaleza{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: 'viagem';
+    z-index: 2;
+    top: -1000px;
+    text-align: left;
+    margin-left: 160px;
+    font-size: 40px;
+}
+
+.letra_italia{
+
+        color: rgb(255, 255, 255);
+        position: relative;
+        font-family: 'viagem';
+        z-index: 2;
+        top: -1620px;
+        text-align: center;
+        font-size: 40px;
+}
+
+.letra_espanha{
+
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-family: 'viagem';
+    z-index: 2;
+    top: -1730px;
+    text-align: right;
+    margin-right: 200px;
+    font-size: 40px;
+
 }

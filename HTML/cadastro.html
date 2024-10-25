@@ -11,13 +11,15 @@
     <link rel="shortcut icon" href="../Pictures/favicon.ico" type="image/x-icon">
     <script src='../JavaScript/cadastro.js'></script>
 </head>
-
+<div class="fundo">
 <body>
 <div class="headcad">
     
     <h1 class="titulo">Cadastro</h1>
     <div class="input_fundo">
-    <form>  <h2 id="Airline" >Airlines</h2>
+    <div class="png">
+    <div class="branco">
+    <form>  <h2 id="Airline" >Cadastre Aqui</h2>
         <label for="name" for="name"></label>
         <input type="text" name="name" placeholder="Digite Seu nome" id="name"/>
 
@@ -30,15 +32,18 @@
         <label for="cpf_cnpj"></label>
         <input type="text" id="cpf_cnpj" name="cpf_cnpj" placeholder="Digite seu CPF/CNPJ"/>
 
-        <label for="terms">Termos de condição</label>
+        <label class="condicao" for="terms">Termos de condição</label>
         <input id="termos" type="checkbox" name="terms"/>
 
         <label for="birthday"></label>
         <input  id="aniversario" type="date" placeholder="Aniversário" name="birthday"/>
 
         <input id="kad" type="button" value="Cadastra-se" onclick="cadastroUsuario()"/>
+    </div>
+    </div>
     </div>    
 </div>
     </form>  
-</body>  
+</body>
+</div>  
 </html>

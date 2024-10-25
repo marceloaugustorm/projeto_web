@@ -16,10 +16,10 @@ input{
     margin-top: 20px;
     font-size:18px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 10px;
     width: 200px;
     height: 30px;
-    bottom: -100px;
+    bottom: -70px;
+    z-index: 1;
 }
 
 .headcad_endereco{
@@ -38,14 +38,20 @@ h1{
 }
 
 .inputfundo_endereco{
-    background-image: url(../Pictures/Aura\ Background.jpg);
-    border: solid rgb(65, 144, 194);
+    background-color: white;
     box-shadow: 100px;
-    background-position:  left center;
+    background-position: center;
+    background-size: cover;
     width: 30%;
     height: 450px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 80px
+}
+
+.tudo{
+    background-image: url(../Pictures/fundo\ home.avif);
+    background-position: center;
+    background-size: cover;
 }
