@@ -1,28 +1,52 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
     const urlParams = new URLSearchParams(window.location.search);
     const addressId = urlParams.get('id');
 
     if (addressId) {
         document.getElementById('addressId').value = addressId;
 
+        const token = JSON.parse(localStorage.getItem("user")).access_token;
+        console.log('Token de autenticação:', token); 
+
         fetch(`https://go-wash-api.onrender.com/api/auth/address/${addressId}`, {
             method: "GET",
             headers: {
-                Authorization: `Bearer ${JSON.parse(localStorage.getItem("user")).access_token}`,
+                Authorization: `Bearer ${token}`,
                 "Content-Type": "application/json"
             }
         })
-        .then(response => response.json())
-        .then(data => {
+        .then(response => {
+            console.log('Status da resposta:', response.status); 
+            if (!response.ok) {
+                throw new Error(`Erro: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(responseData => {
+            console.log('Dados recebidos da API:', responseData); 
+            
+    
+            const data = responseData.data; 
+
             if (data) {
-                document.getElementById('newTitle').value = data.title;
-                document.getElementById('newAddress').value = data.address;
-                document.getElementById('newNumber').value = data.number;
-                document.getElementById('newCep').value = data.cep;
+                document.getElementById('newTitle').value = data.title || '';
+                document.getElementById('newAddress').value = data.address || '';
+                document.getElementById('newNumber').value = data.number || ''; 
+                document.getElementById('newCep').value = data.cep || ''; 
+
+                console.log('Valores atribuídos aos inputs com sucesso');
+                console.log('Título:', data.title);
+                console.log('Endereço:', data.address);
+                console.log('Número:', data.number);
+                console.log('CEP:', data.cep);
+            } else {
+                console.error('Nenhum dado encontrado na resposta da API.');
             }
         })
-        .catch(error => console.error('Erro ao carregar os dados do endereço:', error));
+        .catch(error => {
+            console.error('Erro ao carregar os dados do endereço:', error);
+            alert(`Erro ao carregar os dados: ${error.message}`);
+        });
     } else {
         alert('ID do endereço não encontrado na URL.');
     }
@@ -46,6 +70,10 @@ async function Atualizar() {
             },
             body: JSON.stringify(updatedData),
         });
+
+        if (!response.ok) {
+            throw new Error(`Erro: ${response.statusText}`);
+        }
 
         alert('Endereço atualizado com sucesso!');
         window.location.href = 'listagem endereco.html'; 

@@ -1,3 +1,11 @@
+const token = localStorage.getItem('user');
+
+if (!token) {
+    alert("Faça login para prosseguir.");
+    window.location.replace("login.html"); // Corrigido para redirecionar corretamente
+}
+
+
 async function cadastraEndereco() {
     const title = document.getElementById("title").value;
     const cep = document.getElementById("cep").value;
